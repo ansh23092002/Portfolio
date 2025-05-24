@@ -43,3 +43,9 @@
     transform: translate(-50%, -40%) scale(1);
   }
 }
+
+@layer utilities {
+  .heading {
+    @apply font-bold text-4xl md:text-5xl text-center;
+  }
+}
