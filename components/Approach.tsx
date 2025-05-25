@@ -7,7 +7,7 @@ import { CanvasRevealEffect } from "@/components/ui/CanvasRevealEffect";
 const Approach = () => {
   return (
     <section className="w-full py-20">
-      <h1 className="heading relative">
+      <h1 className="heading ">
         My <span className="text-purple-400">Approach</span>
       </h1>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center  w-full gap-4">
@@ -41,7 +41,7 @@ const Approach = () => {
             dotSize={2}
           />
           {/* Radial gradient for the cute fade */}
-          <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" />
+          {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
         <Card
           title="Development & Launch"
@@ -119,7 +119,7 @@ const Card = ({
 const AceternityIcon = ({ order }: { order: string }) => {
   return (
     <div>
-      <button className="relative inline-flex overflow-hidden rounded-full p-[1px]">
+      <button className="relative inline-flex  overflow-hidden rounded-full p-[1px]">
         <span
           className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite]
          bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]"
