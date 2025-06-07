@@ -5,7 +5,7 @@ export const navItems = [
   { name: "Contact", link: "#contact" },
 ];
 
-export const  gridItems = [
+export const gridItems = [
   {
     id: 1,
     title: "I prioritize client collaboration, fostering open communication ",
@@ -72,6 +72,14 @@ export const  gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "jai mata di construction ",
+    des: "Created a website of jai mata di construction, combining next.js, Tailwindcss and Typescript ",
+    img: "/p2.svg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "",
+  },
+  {
+    id: 2,
     title: "Animated Apple Iphone 3D Website",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/p4.svg",
@@ -79,31 +87,22 @@ export const projects = [
     link: "",
   },
   {
-    id: 2,
-    title: "jai mata di construction ",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
-    link: "",
-  },
-  {
     id: 3,
-    title: "Stone Paper Scissors!",
-    des: "This classic game was built using HTML, CSS, and JavaScript, focusing on clean design and interactive gameplay. It was a fun way to strengthen my frontend development skills and bring a bit of nostalgia to the screen.",
-    img: "/Capture 2.PNG",
-    iconLists: [],
+    title: "Ai chatbot",
+    des: "This is a modern AI-powered chatbot built using the Google Gemini API with a clean and responsive UI designed in Tailwind CSS. Developed with Next.js, the app provides intelligent, real-time conversations and can be easily customized for various use cases. It combines powerful AI capabilities with sleek, user-friendly design.",
+    img: "/chatbot.PNG ",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/api.svg"],
     link: "",
   },
   {
     id: 4,
-    title: "Ai chatbot",
-    des: "Google gemini api to make a chat bot on nextjs, react and axios ",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+    title: "Stone Paper Scissors!",
+    des: "This classic game was built using HTML, CSS, and JavaScript, focusing on clean design and interactive gameplay. It was a fun way to strengthen my frontend development skills and bring a bit of nostalgia to the screen.",
+    img: "/Capture 2.PNG",
+    iconLists: ["/html.svg","/js.svg"],
     link: "",
   },
 ];
-
 
 export const workExperience = [
   {
