@@ -4,9 +4,9 @@ import { Button } from './ui/moving-border'
 
 const Experience = () => {
   return (
-    <div className='py-20 ' id='contect'>
-      <h1 className='font-bold text-4xl md:text-5xl text-center relative'> My {" "}
-        <span className="text-purple-400"> Contacts</span>
+    <div className='py-20 ' id=''>
+      <h1 className='font-bold text-4xl md:text-5xl pb-10 text-center relative'> My {" "}
+        <span className="text-purple-400"> Experinece</span>
       </h1>
       <div className='w-full grid grid-cols-1 gap-10 lg:grid-cols-4'>
       {workExperience.map((card) => (
